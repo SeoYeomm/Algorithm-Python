@@ -16,5 +16,6 @@ def solution(tickets):
                 visited[i] = False # 아니면 티켓 되돌려 놓기
                 if result:  # None이 아니라면 경로 반환
                     return result
+        return None
     
     return dfs("ICN", ["ICN"])
